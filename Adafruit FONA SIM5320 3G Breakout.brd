@@ -8692,8 +8692,6 @@ design rules under a new name.</description>
 <via x="12.7" y="3.937" extent="1-16" drill="0.5"/>
 <via x="32.512" y="16.002" extent="1-16" drill="0.5"/>
 <via x="34.925" y="16.002" extent="1-16" drill="0.5"/>
-<via x="38.481" y="48.641" extent="1-16" drill="0.5"/>
-<via x="37.084" y="48.768" extent="1-16" drill="0.5"/>
 <contactref element="ANT1" pad="GND2"/>
 <contactref element="ANT1" pad="GND1"/>
 <contactref element="SW3" pad="1"/>
@@ -8810,15 +8808,15 @@ design rules under a new name.</description>
 <wire x1="34.544" y1="8.763" x2="34.417" y2="8.89" width="0.254" layer="1"/>
 <wire x1="34.417" y1="8.89" x2="34.417" y2="10.414" width="0.254" layer="1"/>
 <wire x1="34.417" y1="10.414" x2="35.456" y2="11.453" width="0.254" layer="1"/>
-<wire x1="35.456" y1="11.453" x2="35.456" y2="12.474690625" width="0.254" layer="1"/>
-<wire x1="35.456" y1="12.474690625" x2="35.456" y2="13.702" width="0.254" layer="1"/>
-<wire x1="35.456" y1="12.474690625" x2="34.919309375" y2="11.938" width="0.254" layer="1"/>
-<wire x1="34.919309375" y1="11.938" x2="27.305" y2="11.938" width="0.254" layer="1"/>
-<wire x1="27.305" y1="11.938" x2="26.67" y2="11.303" width="0.254" layer="1"/>
-<wire x1="26.67" y1="11.303" x2="26.67" y2="10.287" width="0.254" layer="1"/>
+<wire x1="35.456" y1="11.87885625" x2="35.456" y2="11.453" width="0.254" layer="1"/>
+<wire x1="35.456" y1="11.87885625" x2="35.456" y2="13.702" width="0.254" layer="1"/>
+<wire x1="28.956" y1="10.287" x2="31.369" y2="11.938" width="0.254" layer="1"/>
+<wire x1="28.956" y1="10.287" x2="26.67" y2="10.287" width="0.254" layer="1"/>
 <via x="26.67" y="10.287" extent="1-16" drill="0.5"/>
 <wire x1="26.67" y1="10.287" x2="26.67" y2="11.302" width="0.254" layer="16"/>
 <wire x1="26.67" y1="11.302" x2="27.283" y2="11.915" width="0.254" layer="16"/>
+<wire x1="31.369" y1="11.938" x2="35.39685625" y2="11.938" width="0.254" layer="1"/>
+<wire x1="35.39685625" y1="11.938" x2="35.456" y2="11.87885625" width="0.254" layer="1"/>
 </signal>
 <signal name="RI">
 <contactref element="U1" pad="69"/>
