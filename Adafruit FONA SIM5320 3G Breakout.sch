@@ -2995,7 +2995,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="5.1054" y="7.6782"/>
 <vertex x="5.1054" y="7.267"/>
 </polygon>
-<smd name="6" x="0" y="2.54" dx="10.8" dy="10.41" layer="1"/>
 <smd name="1" x="-3.4036" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
 <smd name="2" x="-1.7018" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
 <smd name="3" x="0" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
@@ -3015,7 +3014,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pin name="GND" x="-7.62" y="-5.08" length="middle"/>
 <pin name="OUT" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="ADJ" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="TAB" x="-7.62" y="-7.62" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3030,7 +3028,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="EN" pad="1"/>
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="TAB" pad="6"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
 </connects>
 <technologies>
@@ -3088,7 +3085,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$1" library="microbuilder" deviceset="1.8V" device=""/>
 <part name="U$13" library="microbuilder" deviceset="GND" device=""/>
 <part name="FID1" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="FID2" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
 <part name="FRAME1" library="microbuilder" deviceset="FRAME_A3" device=""/>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
 <part name="FID5" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
@@ -3211,7 +3207,6 @@ shifting internally</text>
 <instance part="U$1" gate="G$1" x="22.86" y="144.78"/>
 <instance part="U$13" gate="G$1" x="22.86" y="129.54" rot="R270"/>
 <instance part="FID1" gate="G$1" x="256.54" y="12.7"/>
-<instance part="FID2" gate="G$1" x="256.54" y="17.78"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$3" x="261.62" y="2.54"/>
 <instance part="FID4" gate="G$1" x="251.46" y="15.24"/>
